@@ -123,15 +123,16 @@ public class Fecha {
         return resultado;
 
     }
-
-    public int calcularNumeroOrden() {
-
-        int orden = 0;
-        int[] diasMes = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-        for (int m = 0; m < mes - 1; m++) {
-            orden = orden + diasMes[m];
-            orden = orden + dia;
-        }
-        return dia;
-    }
+    
+    public int calcularNumeroOrden ()
+    {
+        
+        int orden=0;
+       int[] diasMes = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        for (int m=0 ; m< mes-1;m++)
+            orden=orden +diasMes[m];
+            orden=orden+dia;
+    
+    return dias;
+}
 }
