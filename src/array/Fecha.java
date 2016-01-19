@@ -129,10 +129,10 @@ public class Fecha {
         
         int orden=0;
        int[] diasMes = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-        for (int m=0 ; m< mes-1;m++)
+        for (int m=0 ; m< mes-1;m++){
             orden=orden +diasMes[m];
-            orden=orden+dia;
+            orden=orden+dia;}
     
-    return dias;
+    return dia;
 }
 }
